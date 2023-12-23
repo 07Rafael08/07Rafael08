@@ -20,7 +20,7 @@
 <br/>
 
 <div>
-    <a href="https://discord.com/users/680585434535165969"><img src="https://img.shields.io/badge/07fael08+|+Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" /></a>
-    <a href="https://x.com/07fael08"><img src="https://img.shields.io/badge/07fael08+|+X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" />
-    <a href="https://dev.to/07fael08"><img src="(https://img.shields.io/badge/07fael08+|+dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
+    <a href="https://discord.com/users/680585434535165969"><img src="https://img.shields.io/badge/07fael08%20%7C%20Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" /></a>
+    <a href="https://x.com/07fael08"><img src="https://img.shields.io/badge/07fael08%20%7C%20X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" />
+    <a href="https://dev.to/07fael08"><img src="https://img.shields.io/badge/07fael08%20%7C%20dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
 </div>
