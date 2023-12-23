@@ -6,10 +6,8 @@
 > 🪪 => <a href="https://07fael08.netlify.app" >07fael08</a>
 
 # 💻 "Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom"
-> 📝 => Atualmente estou aprendendo Python & React
+> 📝 => Atualmente estou aprendendo Python & React <br/>
 > 🔨 => Eu administro [Code Devs](https://discord.gg/6EPCv2Z5)
-<br/>
-<br/>
 
 # Linguagens:
 <div style="display: inline_block"><br>
