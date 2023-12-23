@@ -7,7 +7,7 @@
 
 # 💻 "Uma linguagem não faz seu código ser bom, programadores bons fazem seu código ser bom"
 > 📝 => Atualmente estou aprendendo Python & React <br/>
-> 🔨 => Eu administro [Code Devs](https://discord.gg/6EPCv2Z5)
+> 🔨 => Eu administro [Code Devs](https://discord.gg/6EPCv2Z5) <img alt="Discord" src="https://img.shields.io/discord/1188204125951906008">
 
 # Linguagens:
 <div style="display: inline_block"><br>
@@ -16,4 +16,11 @@
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+</div>
+<br/>
+
+<div>
+    <a href="https://discord.com/users/680585434535165969"><img src="https://img.shields.io/badge/07fael08+|+Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" /></a>
+    <a href="https://x.com/07fael08"><img src="https://img.shields.io/badge/07fael08+|+X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" />
+    <a href="https://dev.to/07fael08"><img src="(https://img.shields.io/badge/07fael08+|+dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
 </div>
