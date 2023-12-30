@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="./img/317755_badge_html_html5_achievement_award_icon.png"  />
+  <img height="300" src="https://i.pinimg.com/564x/10/c4/5b/10c45ba21cb3790f7516d3f560c70238.jpg"  />
 </div>
 
 ###
@@ -14,9 +14,11 @@
 
 ###
 
-<p align="left">> 💻 => Web Developer <br/><br>> 🎂 => 07/02 <br/><br>> 🪪 => [07fael08](https://07fael08.netlify.app)<br>> 📝 => Atualmente estou aprendendo Python & React<br>> 🔨 => Eu administro [Code Devs](https://discord.gg/6EPCv2Z5) <img alt="Discord" src="https://img.shields.io/discord/1188204125951906008"></p>
-
-###
+<p> 💻 => Web Developer </p>
+<p>🎂 => 07/02</p>
+<p>🪪 => <a href="https://07fael08.netlify.app">07fael08</a></p>
+<p>📝 => Atualmente estou aprendendo Python & React
+<p> 🔨 => Eu administro <a href="https://discord.gg/6EPCv2Z5">Code Devs</a> <img alt="Discord" src="https://img.shields.io/discord/1188204125951906008"></p>
 
 <h2 align="left">Skills</h2>
 
