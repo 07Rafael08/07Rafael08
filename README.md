@@ -14,8 +14,8 @@
 
 <p> 💻 => Web Developer </p>
 <p>🎂 => 07/02</p>
-<p>🪪 => <a href="https://07fael08.netlify.app">07fael08</a></p>
-<p>📝 => Atualmente estou aprendendo Python & React
+<p>🪪 => <a href="https://07fael08.vercel.app">07fael08</a></p>
+<p>📝 => Atualmente estou aprendendo Java
 <!-- <p> 🔨 => Eu administro <a href="https://discord.gg/6EPCv2Z5">Code Devs</a> <img alt="Discord" src="https://img.shields.io/discord/1188204125951906008"></p> -->
 
 <hr height="3px"/>
