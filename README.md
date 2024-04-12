@@ -12,9 +12,9 @@
 <br/>
 <br/>
 
-<div style="display: flex; flex-direction: column;">
+<div align="center" style="display: flex; flex-direction: column;">
     <div style="display: flex; flex-direction: row;">
-        <img style="min-width: 134px; max-height: 134px;" width="320" src="https://lanyard.cnrad.dev/api/680585434535165969?theme=dark&bg=00000000&idleMessage=Dormindo...&hideTimestamp=false" />
+        <a href="https://discord.com/users/680585434535165969"><img style="min-width: 134px; max-height: 134px;" width="320" src="https://lanyard.cnrad.dev/api/680585434535165969?theme=dark&bg=00000000&idleMessage=Dormindo...&hideTimestamp=false" /></a>
         <img style="min-width: 164px;" height="164" src="https://streak-stats.demolab.com/?user=07Rafael08&hide_border=true&theme=transparent&date_format=M%20j%5B%2C%20Y%5D" />
     </div>
     <div style="display: flex; flex-direction: column;">
