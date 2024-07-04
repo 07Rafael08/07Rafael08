@@ -1,16 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=2c2c2c&text=07fael08.Dev&fontAlign=50&fontAlignY=30&reversal=false&section=header&textBg=false&animation=fadeIn&fontColor=fff&fontSize=29" />
-
-<h1 align="center">👋🏻 Hey, I am Rafael!</h1>
-
-<p> 💻 => Web Developer </p>
-<p>🎂 => 07/02</p>
-<p>🪪 => <a href="https://07fael08.vercel.app">07fael08</a></p>
-<p>📝 => Atualmente estou aprendendo Java
-<!-- <p> 🔨 => Eu administro <a href="https://discord.gg/6EPCv2Z5">Code Devs</a> <img alt="Discord" src="https://img.shields.io/discord/1188204125951906008"></p> -->
-
-<br/>
-<br/>
-<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=2c2c2c&fontAlign=50&fontAlignY=30&reversal=false&section=header&textBg=false&animation=fadeIn&fontColor=fff&fontSize=29" />
 
 <div align="center" style="display: flex; flex-direction: column;">
     <div style="display: flex; flex-direction: row;">
