@@ -4,6 +4,7 @@
 - :octocat: Estou trabalhando [@spacelaxy](https://github.com/spacelaxy)
 - 📘 Estudando **Next.js**, **Three.js** 
 
+<br height="6px"/>
 
 <div align="center" style="display: flex; flex-direction: column;">
     <div style="display: flex; flex-direction: row; ">
