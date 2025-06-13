@@ -1,7 +1,6 @@
 # 👋🏻 Hello, I'm Rafael!
 
 - 🎨 Atualmente sou Frontend
-- :octocat: Estou trabalhando [@spacelaxy](https://github.com/spacelaxy)
 - 📘 Estudando **Next.js**, **Three.js** 
 
 <br height="6px"/>
