@@ -29,6 +29,6 @@ jobs:
         run: |
           git config --global user.email "faelfernando1408@gmail.com"
           git config --global user.name "07Rafael08"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/07Rafael08/07Rafael08.git
           git add .
-          git commit -m "update: uptime diário" || echo "sem mudanças"
-          git push
+          git diff --cached --exit-code || (git commit -m "update: uptime diário" && git push)
