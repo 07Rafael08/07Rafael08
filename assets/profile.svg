@@ -8,7 +8,7 @@
 <rect width="100%" height="100%" fill="#161b22" rx="15"/>
 <text x="30" y="40" fill="#c9d1d9">
   <tspan x="30" y="40">07fael08</tspan>
-  <tspan x="30" y="70" class="key">OS:</tspan> <tspan class="value">Windows &amp; Linux</tspan>
+  <tspan x="30" y="70" class="key">OS:</tspan> <tspan class="value">Windows, Linux</tspan>
   <tspan x="30" y="100" class="key">Uptime:</tspan> <tspan class="value" id="uptime_value">...</tspan>
   <tspan x="30" y="130" class="key">IDE:</tspan> <tspan class="value">VSCode, Neovim</tspan>
 
