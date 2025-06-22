@@ -1,26 +1,36 @@
+#!/usr/bin/env python3
 import datetime
 from lxml import etree
 
-def calcular_uptime(nascimento):
-    hoje = datetime.date.today()
-    diff = hoje - nascimento
-    anos = diff.days // 365
-    meses = (diff.days % 365) // 30
-    dias = (diff.days % 365) % 30
-    return f"{anos} anos, {meses} meses, {dias} dias"
+SVG_PATH = "assets/profile.svg"
+BIRTH = datetime.date(2008, 2, 7)
 
-def atualizar_svg(arquivo_svg, novo_texto):
-    tree = etree.parse(arquivo_svg)
+def calcula_idade(born: datetime.date, hoje: datetime.date):
+    anos = hoje.year - born.year - ((hoje.month, hoje.day) < (born.month, born.day))
+    md = (hoje.month - born.month - (1 if hoje.day < born.day else 0)) % 12
+    # cálculo aproximado de dias do mês
+    dias = (hoje - born.replace(year=hoje.year, month=hoje.month)).days
+    if dias < 0:
+        ultimo = born.replace(year=hoje.year, month=hoje.month) - datetime.timedelta(days=hoje.day)
+        dias = (hoje - ultimo).days
+    return anos, md, dias
+
+def atualiza_svg():
+    hoje = datetime.date.today()
+    anos, meses, dias = calcula_idade(BIRTH, hoje)
+    texto = f"{anos} anos, {meses} meses, {dias} dias"
+
+    tree = etree.parse(SVG_PATH)
     root = tree.getroot()
-    uptime = root.find(".//*[@id='uptime_value']")
-    if uptime is not None:
-        uptime.text = novo_texto
-        tree.write(arquivo_svg, encoding='utf-8', xml_declaration=True)
-        print("✅ SVG atualizado com:", novo_texto)
-    else:
-        print("❌ Elemento com ID 'uptime_value' não encontrado.")
+    age = root.find(".//*[@id='age_data']")
+    age_dots = root.find(".//*[@id='age_data_dots']")
+    if age is not None and age_dots is not None:
+        age.text = texto
+        # justifica pontos
+        comprimento = 22
+        dots = comprimento - len(texto)
+        age_dots.text = " " + "."*dots + " " if dots > 0 else " "
+    tree.write(SVG_PATH, xml_declaration=True, encoding="UTF-8")
 
 if __name__ == "__main__":
-    nascimento = datetime.date(2008, 2, 7)
-    texto_uptime = calcular_uptime(nascimento)
-    atualizar_svg("assets/profile.svg", texto_uptime)
+    atualiza_svg()
