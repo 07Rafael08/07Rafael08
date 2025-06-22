@@ -1,3 +1,5 @@
-<p align="center">
-  <img src="assets/profile.svg" width="100%" />
-</p>
+<a href="https://github.com/07Rafael08/07Rafael08">
+  <picture>
+    <img alt="Rafael Fernando GitHub Profile README" src="https://raw.githubusercontent.com/07Rafael08/07Rafael08/refs/heads/main/assets/profile.svg">
+  </picture>
+</a>
