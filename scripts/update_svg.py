@@ -7,13 +7,25 @@ BIRTH = datetime.date(2008, 2, 7)
 
 def calcula_idade(born: datetime.date, hoje: datetime.date):
     anos = hoje.year - born.year - ((hoje.month, hoje.day) < (born.month, born.day))
-    md = (hoje.month - born.month - (1 if hoje.day < born.day else 0)) % 12
-    # cálculo aproximado de dias do mês
-    dias = (hoje - born.replace(year=hoje.year, month=hoje.month)).days
+    meses = hoje.month - born.month - (1 if hoje.day < born.day else 0)
+    if meses < 0:
+        meses += 12
+    
+    # Calcular dias considerando o mês anterior ao atual
+    ultimo_aniversario_mes = (hoje.month - 1) if hoje.month > 1 else 12
+    ultimo_aniversario_ano = hoje.year if hoje.month > 1 else hoje.year - 1
+    
+    try:
+        data_referencia = datetime.date(ultimo_aniversario_ano, ultimo_aniversario_mes, born.day)
+    except ValueError:
+        # se o dia não existir no mês (ex: 30 em fevereiro), pega o último dia do mês
+        data_referencia = datetime.date(ultimo_aniversario_ano, ultimo_aniversario_mes + 1, 1) - datetime.timedelta(days=1)
+    
+    dias = (hoje - data_referencia).days
     if dias < 0:
-        ultimo = born.replace(year=hoje.year, month=hoje.month) - datetime.timedelta(days=hoje.day)
-        dias = (hoje - ultimo).days
-    return anos, md, dias
+        dias = 0
+
+    return anos, meses, dias
 
 def atualiza_svg():
     hoje = datetime.date.today()
@@ -26,10 +38,10 @@ def atualiza_svg():
     age_dots = root.find(".//*[@id='age_data_dots']")
     if age is not None and age_dots is not None:
         age.text = texto
-        # justifica pontos
         comprimento = 22
         dots = comprimento - len(texto)
         age_dots.text = " " + "."*dots + " " if dots > 0 else " "
+
     tree.write(SVG_PATH, xml_declaration=True, encoding="UTF-8")
 
 if __name__ == "__main__":
