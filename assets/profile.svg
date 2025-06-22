@@ -1,25 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="900" height="500" font-size="16px">
-<style>
-  .key { fill: #ffa657; }
-  .value { fill: #a5d6ff; }
-  .cc { fill: #616e7f; }
-</style>
-<rect width="100%" height="100%" fill="#161b22" rx="15"/>
-<text x="30" y="40" fill="#c9d1d9">
-  <tspan x="30" y="40">07fael08</tspan>
-  <tspan x="30" y="70" class="key">OS:</tspan> <tspan class="value">Windows, Linux</tspan>
-  <tspan x="30" y="100" class="key">Uptime:</tspan> <tspan class="value" id="uptime_value">...</tspan>
-  <tspan x="30" y="130" class="key">IDE:</tspan> <tspan class="value">VSCode, Neovim</tspan>
+<svg width="1080" height="720" viewBox="0 0 1080 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .key { fill: #f9826c; font-weight: bold; }
+    .value { fill: #79c0ff; }
+    .cc { fill: #8b949e; }
+    text { font-family: 'Courier New', monospace; font-size: 16px; white-space: pre; }
+  </style>
 
-  <tspan x="30" y="180" class="key">Languages.Programming:</tspan> <tspan class="value">Python, C#, JavaScript, Batch</tspan>
-  <tspan x="30" y="210" class="key">Languages.Computer:</tspan> <tspan class="value">HTML, CSS, JSON</tspan>
+  <text x="390" y="30" fill="#c9d1d9">
+    <tspan x="390" y="30">07fael08</tspan> -————————————————————————————————————————————————————————————
 
-  <tspan x="30" y="260" class="key">Hobbies.Game:</tspan> <tspan class="value">CS, Minecraft, Clash of Clans, MK1</tspan>
-  <tspan x="30" y="290" class="key">Hobbies.Sport:</tspan> <tspan class="value">Table Tennis, Basketball</tspan>
+    <tspan x="390" y="60" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Windows, Linux</tspan>
+    <tspan x="390" y="80" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">17 anos, 4 meses, XX dias</tspan>
+    <tspan x="390" y="100" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">VSCode, Neovim</tspan>
 
-  <tspan x="30" y="340" class="key">Email:</tspan> <tspan class="value">rafadelima07@gmail.com</tspan>
-  <tspan x="30" y="370" class="key">GitHub:</tspan> <tspan class="value">07Rafael08</tspan>
-  <tspan x="30" y="400" class="key">Discord:</tspan> <tspan class="value">07rafael08</tspan>
-</text>
+    <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">Python, C#, JavaScript, Batch</tspan>
+    <tspan x="390" y="150" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">HTML, CSS, JSON</tspan>
+
+    <tspan x="390" y="180" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Game</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">CS, Minecraft, Clash of Clans, MK1</tspan>
+    <tspan x="390" y="200" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Sport</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">Table Tennis, Basketball</tspan>
+
+    <tspan x="390" y="240">- Contato</tspan> -——————————————————————————————————————————————————————————————
+
+    <tspan x="390" y="260" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">rafadelima07@gmail.com</tspan>
+    <tspan x="390" y="280" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">07Rafael08</tspan>
+    <tspan x="390" y="300" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">07rafael08</tspan>
+  </text>
 </svg>
