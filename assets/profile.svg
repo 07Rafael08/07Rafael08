@@ -14,31 +14,26 @@
     text, tspan { white-space: pre; }
   </style>
   <rect width="985px" height="500px" fill="#161b22" rx="15"/>
-  <text x="30" y="30" fill="#c9d1d9" font-family="monospace" font-size="14" class="ascii" xml:space="preserve">
-    <tspan x="50" y="30">               .:...:::::::..               </tspan>
-    <tspan x="50" y="50">            .::.............:::::~^        </tspan>
-    <tspan x="50" y="70">           ....:.:..............::^~       </tspan>
-    <tspan x="50" y="90">         .....::..::..............:^.      </tspan>
-    <tspan x="50" y="110">        .................:..........::     </tspan>
-    <tspan x="50" y="130">       ...      .....................~:    </tspan>
-    <tspan x="50" y="150">      .          ...................:!^    </tspan>
-    <tspan x="50" y="170">      ..            .......::......::~     </tspan>
-    <tspan x="50" y="190">       ..    .......:^^^:::...::^^:.:.     </tspan>
-    <tspan x="50" y="210">         ..:~!777~^^^!YY?~:::^~!7?!:        </tspan>
-    <tspan x="50" y="230">        ..7?7!~~^^!!7?5G57~!~^~~~7J.        </tspan>
-    <tspan x="50" y="250">        ^!?Y55JJ?J55YY5GPYJYYJJYYYY.        </tspan>
-    <tspan x="50" y="270">        .YJY5PGGGGGPYYPBGPYY5PPPP55.        </tspan>
-    <tspan x="50" y="290">         :YY5PPGGGGGJ7?55J?JPPPP55J         </tspan>
-    <tspan x="50" y="310">          .J55PGGGGGY77??!!JPPPP55!         </tspan>
-    <tspan x="50" y="330">           7Y5PPPPPP5YY55YJJY555YY:         </tspan>
-    <tspan x="50" y="350">           .JY5555Y7!!!!!!!!!?YJY?          </tspan>
-    <tspan x="50" y="370">            .JYYYJ?77?JJJJ?777???.          </tspan>
-    <tspan x="50" y="390">              !??????7777!777???^           </tspan>
-    <tspan x="50" y="410">             .~77JJJY555Y5YYYJ77!7?7!^:.    </tspan>
-    <tspan x="50" y="430">         .:~J5??7!7JYY5YYYYJJ!!!7J5PPPP55YJ?</tspan>
-    <tspan x="50" y="450">     .^!J5P5PYJ?J?!~~!!!!!~~~~!7JY5PPP55PPPP</tspan>
-    <tspan x="50" y="470">^?JY5P5PP5P5P55JJYYJ7~~^^^^^^~?Y55P5PPP5PPPP</tspan>
-    <tspan x="50" y="490">555PP55P5P5PP55PYYYYYYJ????7?YPGPPPPPPP5PPPP</tspan>
+  <text x="900" y="30" fill="#c9d1d9" font-family="monospace" font-size="14" class="ascii" xml:space="preserve">
+    <tspan x="90" y="70">          ......::::..                   </tspan>
+    <tspan x="90" y="90">   .::......:::~~~~~~~~~:..              </tspan>
+    <tspan x="90" y="110"> :^:.        .....:^^^^~!!!:             </tspan>
+    <tspan x="90" y="130">:!:                   ..::^!^.           </tspan>
+    <tspan x="90" y="150">^7!~..                  .:~!~~~~~~~^.    </tspan>
+    <tspan x="90" y="170">^!!!!!~^::::::::::::::::^^:....::^^~~~:  </tspan>
+    <tspan x="90" y="190">^!!!!!!777!!!~!!~^^:::..  ..:       :~^: </tspan>
+    <tspan x="90" y="210">^!!!!!!!!!!!!~!~^:..........:        :~^.</tspan>
+    <tspan x="90" y="230">:!!!7!!!!!!!^:^^^::.........:        :~!:</tspan>
+    <tspan x="90" y="250">:!!!!!!!!!!!.^^.:::.........:       .~~~:</tspan>
+    <tspan x="90" y="270">:!!!!!!!!!!!:!^ :^:..........      :^~~^.</tspan>
+    <tspan x="90" y="290">.~!!!!!!!!!!.~~.^^::......... ..:^~~!^^. </tspan>
+    <tspan x="90" y="310">.!!!!!!!!!!!.~^.~^:::.......:::^^~!~:.   </tspan>
+    <tspan x="90" y="330">.~!!!!!!!!!!..:.~^:::......:..::::..     </tspan>
+    <tspan x="90" y="350">.~!!!!!!!!!!!~~!!^::......:: ...         </tspan>
+    <tspan x="90" y="370"> :!!!!!!!!!!!~~!!^^::....:::             </tspan>
+    <tspan x="90" y="390">  .~!!!!!!!!!~~!!^:::......              </tspan>
+    <tspan x="90" y="410">     :^^~!!!!~~!!!~::....                </tspan>
+    <tspan x="90" y="430">        .::::::::::..                    </tspan>
   </text>
   <text x="490" y="90" fill="#c9d1d9">
     <tspan x="490" y="90">07fael08  ————————————————————————————————</tspan>
